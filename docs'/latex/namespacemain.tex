@@ -1,0 +1,94 @@
+\doxysection{main Namespace Reference}
+\hypertarget{namespacemain}{}\label{namespacemain}\index{main@{main}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacemain_a437af3ab886b88040f22f4264b2e772d}{dct2}} (block)
+\item 
+\mbox{\hyperlink{namespacemain_a818d330c04d709c8afb06b8ea0d62c35}{idct2}} (block)
+\item 
+\mbox{\hyperlink{namespacemain_a2cd2688bd6d928bea307b28756f95cf0}{process\+\_\+color\+\_\+image}} (image\+\_\+path, seed, p, n, mode=\textquotesingle{}scramble\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacemain_a287a7ba2899bc411ae7a0d8f45e05842}{mse}} (imageA, imageB)
+\item 
+\mbox{\hyperlink{namespacemain_a9bdc26960525e209e2aeb6a1525b109e}{psnr}} (imageA, imageB)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacemain_a22ec1ac6bd66a6a10b8de9754ac5d0aa}{scrambled\+\_\+image}} = \mbox{\hyperlink{namespacemain_a2cd2688bd6d928bea307b28756f95cf0}{process\+\_\+color\+\_\+image}}(\textquotesingle{}ib43.\+png\textquotesingle{}, seed=423333, p=0.\+1, n=1, mode=\textquotesingle{}scramble\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacemain_a2ad5241944eb3d2c6f545db27dd063e9}{descrambled\+\_\+image}} = \mbox{\hyperlink{namespacemain_a2cd2688bd6d928bea307b28756f95cf0}{process\+\_\+color\+\_\+image}}(\textquotesingle{}scrambled.\+png\textquotesingle{}, seed=423333, p=0.\+1, n=1, mode=\textquotesingle{}descramble\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacemain_a9dbbc1e31890078159833d737cf7f076}{original\+\_\+img}} = np.\+array(Image.\+open(\textquotesingle{}ib43.\+png\textquotesingle{}))
+\item 
+\mbox{\hyperlink{namespacemain_a720b1cf5522b4ec7ff4a25d2055d2152}{scrambled\+\_\+img}} = np.\+array(Image.\+open(\textquotesingle{}scrambled.\+png\textquotesingle{}))
+\item 
+\mbox{\hyperlink{namespacemain_a1db7057e0ea62c5386758b3983a3c89f}{psnr\+\_\+value}} = \mbox{\hyperlink{namespacemain_a9bdc26960525e209e2aeb6a1525b109e}{psnr}}(\mbox{\hyperlink{namespacemain_a9dbbc1e31890078159833d737cf7f076}{original\+\_\+img}}, \mbox{\hyperlink{namespacemain_a720b1cf5522b4ec7ff4a25d2055d2152}{scrambled\+\_\+img}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespacemain_a437af3ab886b88040f22f4264b2e772d}\label{namespacemain_a437af3ab886b88040f22f4264b2e772d} 
+\index{main@{main}!dct2@{dct2}}
+\index{dct2@{dct2}!main@{main}}
+\doxysubsubsection{\texorpdfstring{dct2()}{dct2()}}
+{\footnotesize\ttfamily main.\+dct2 (\begin{DoxyParamCaption}\item[{}]{block }\end{DoxyParamCaption})}
+
+\Hypertarget{namespacemain_a818d330c04d709c8afb06b8ea0d62c35}\label{namespacemain_a818d330c04d709c8afb06b8ea0d62c35} 
+\index{main@{main}!idct2@{idct2}}
+\index{idct2@{idct2}!main@{main}}
+\doxysubsubsection{\texorpdfstring{idct2()}{idct2()}}
+{\footnotesize\ttfamily main.\+idct2 (\begin{DoxyParamCaption}\item[{}]{block }\end{DoxyParamCaption})}
+
+\Hypertarget{namespacemain_a287a7ba2899bc411ae7a0d8f45e05842}\label{namespacemain_a287a7ba2899bc411ae7a0d8f45e05842} 
+\index{main@{main}!mse@{mse}}
+\index{mse@{mse}!main@{main}}
+\doxysubsubsection{\texorpdfstring{mse()}{mse()}}
+{\footnotesize\ttfamily main.\+mse (\begin{DoxyParamCaption}\item[{}]{imageA,  }\item[{}]{imageB }\end{DoxyParamCaption})}
+
+\Hypertarget{namespacemain_a2cd2688bd6d928bea307b28756f95cf0}\label{namespacemain_a2cd2688bd6d928bea307b28756f95cf0} 
+\index{main@{main}!process\_color\_image@{process\_color\_image}}
+\index{process\_color\_image@{process\_color\_image}!main@{main}}
+\doxysubsubsection{\texorpdfstring{process\_color\_image()}{process\_color\_image()}}
+{\footnotesize\ttfamily main.\+process\+\_\+color\+\_\+image (\begin{DoxyParamCaption}\item[{}]{image\+\_\+path,  }\item[{}]{seed,  }\item[{}]{p,  }\item[{}]{n,  }\item[{}]{mode = {\ttfamily \textquotesingle{}scramble\textquotesingle{}} }\end{DoxyParamCaption})}
+
+\Hypertarget{namespacemain_a9bdc26960525e209e2aeb6a1525b109e}\label{namespacemain_a9bdc26960525e209e2aeb6a1525b109e} 
+\index{main@{main}!psnr@{psnr}}
+\index{psnr@{psnr}!main@{main}}
+\doxysubsubsection{\texorpdfstring{psnr()}{psnr()}}
+{\footnotesize\ttfamily main.\+psnr (\begin{DoxyParamCaption}\item[{}]{imageA,  }\item[{}]{imageB }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespacemain_a2ad5241944eb3d2c6f545db27dd063e9}\label{namespacemain_a2ad5241944eb3d2c6f545db27dd063e9} 
+\index{main@{main}!descrambled\_image@{descrambled\_image}}
+\index{descrambled\_image@{descrambled\_image}!main@{main}}
+\doxysubsubsection{\texorpdfstring{descrambled\_image}{descrambled\_image}}
+{\footnotesize\ttfamily main.\+descrambled\+\_\+image = \mbox{\hyperlink{namespacemain_a2cd2688bd6d928bea307b28756f95cf0}{process\+\_\+color\+\_\+image}}(\textquotesingle{}scrambled.\+png\textquotesingle{}, seed=423333, p=0.\+1, n=1, mode=\textquotesingle{}descramble\textquotesingle{})}
+
+\Hypertarget{namespacemain_a9dbbc1e31890078159833d737cf7f076}\label{namespacemain_a9dbbc1e31890078159833d737cf7f076} 
+\index{main@{main}!original\_img@{original\_img}}
+\index{original\_img@{original\_img}!main@{main}}
+\doxysubsubsection{\texorpdfstring{original\_img}{original\_img}}
+{\footnotesize\ttfamily main.\+original\+\_\+img = np.\+array(Image.\+open(\textquotesingle{}ib43.\+png\textquotesingle{}))}
+
+\Hypertarget{namespacemain_a1db7057e0ea62c5386758b3983a3c89f}\label{namespacemain_a1db7057e0ea62c5386758b3983a3c89f} 
+\index{main@{main}!psnr\_value@{psnr\_value}}
+\index{psnr\_value@{psnr\_value}!main@{main}}
+\doxysubsubsection{\texorpdfstring{psnr\_value}{psnr\_value}}
+{\footnotesize\ttfamily main.\+psnr\+\_\+value = \mbox{\hyperlink{namespacemain_a9bdc26960525e209e2aeb6a1525b109e}{psnr}}(\mbox{\hyperlink{namespacemain_a9dbbc1e31890078159833d737cf7f076}{original\+\_\+img}}, \mbox{\hyperlink{namespacemain_a720b1cf5522b4ec7ff4a25d2055d2152}{scrambled\+\_\+img}})}
+
+\Hypertarget{namespacemain_a22ec1ac6bd66a6a10b8de9754ac5d0aa}\label{namespacemain_a22ec1ac6bd66a6a10b8de9754ac5d0aa} 
+\index{main@{main}!scrambled\_image@{scrambled\_image}}
+\index{scrambled\_image@{scrambled\_image}!main@{main}}
+\doxysubsubsection{\texorpdfstring{scrambled\_image}{scrambled\_image}}
+{\footnotesize\ttfamily main.\+scrambled\+\_\+image = \mbox{\hyperlink{namespacemain_a2cd2688bd6d928bea307b28756f95cf0}{process\+\_\+color\+\_\+image}}(\textquotesingle{}ib43.\+png\textquotesingle{}, seed=423333, p=0.\+1, n=1, mode=\textquotesingle{}scramble\textquotesingle{})}
+
+\Hypertarget{namespacemain_a720b1cf5522b4ec7ff4a25d2055d2152}\label{namespacemain_a720b1cf5522b4ec7ff4a25d2055d2152} 
+\index{main@{main}!scrambled\_img@{scrambled\_img}}
+\index{scrambled\_img@{scrambled\_img}!main@{main}}
+\doxysubsubsection{\texorpdfstring{scrambled\_img}{scrambled\_img}}
+{\footnotesize\ttfamily main.\+scrambled\+\_\+img = np.\+array(Image.\+open(\textquotesingle{}scrambled.\+png\textquotesingle{}))}
+

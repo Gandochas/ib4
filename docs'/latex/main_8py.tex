@@ -1,0 +1,33 @@
+\doxysection{main.\+py File Reference}
+\hypertarget{main_8py}{}\label{main_8py}\index{main.py@{main.py}}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacemain}{main}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacemain_a437af3ab886b88040f22f4264b2e772d}{main.\+dct2}} (block)
+\item 
+\mbox{\hyperlink{namespacemain_a818d330c04d709c8afb06b8ea0d62c35}{main.\+idct2}} (block)
+\item 
+\mbox{\hyperlink{namespacemain_a2cd2688bd6d928bea307b28756f95cf0}{main.\+process\+\_\+color\+\_\+image}} (image\+\_\+path, seed, p, n, mode=\textquotesingle{}scramble\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacemain_a287a7ba2899bc411ae7a0d8f45e05842}{main.\+mse}} (imageA, imageB)
+\item 
+\mbox{\hyperlink{namespacemain_a9bdc26960525e209e2aeb6a1525b109e}{main.\+psnr}} (imageA, imageB)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacemain_a22ec1ac6bd66a6a10b8de9754ac5d0aa}{main.\+scrambled\+\_\+image}} = \mbox{\hyperlink{namespacemain_a2cd2688bd6d928bea307b28756f95cf0}{process\+\_\+color\+\_\+image}}(\textquotesingle{}ib43.\+png\textquotesingle{}, seed=423333, p=0.\+1, n=1, mode=\textquotesingle{}scramble\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacemain_a2ad5241944eb3d2c6f545db27dd063e9}{main.\+descrambled\+\_\+image}} = \mbox{\hyperlink{namespacemain_a2cd2688bd6d928bea307b28756f95cf0}{process\+\_\+color\+\_\+image}}(\textquotesingle{}scrambled.\+png\textquotesingle{}, seed=423333, p=0.\+1, n=1, mode=\textquotesingle{}descramble\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacemain_a9dbbc1e31890078159833d737cf7f076}{main.\+original\+\_\+img}} = np.\+array(Image.\+open(\textquotesingle{}ib43.\+png\textquotesingle{}))
+\item 
+\mbox{\hyperlink{namespacemain_a720b1cf5522b4ec7ff4a25d2055d2152}{main.\+scrambled\+\_\+img}} = np.\+array(Image.\+open(\textquotesingle{}scrambled.\+png\textquotesingle{}))
+\item 
+\mbox{\hyperlink{namespacemain_a1db7057e0ea62c5386758b3983a3c89f}{main.\+psnr\+\_\+value}} = \mbox{\hyperlink{namespacemain_a9bdc26960525e209e2aeb6a1525b109e}{psnr}}(\mbox{\hyperlink{namespacemain_a9dbbc1e31890078159833d737cf7f076}{original\+\_\+img}}, \mbox{\hyperlink{namespacemain_a720b1cf5522b4ec7ff4a25d2055d2152}{scrambled\+\_\+img}})
+\end{DoxyCompactItemize}
